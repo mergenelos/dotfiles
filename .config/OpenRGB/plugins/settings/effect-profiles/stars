@@ -1,0 +1,34 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": false,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "QMK OpenRGB Device (Protocol Version 9)",
+                    "location": "/dev/hidraw1",
+                    "name": "K530",
+                    "reverse": false,
+                    "serial": "",
+                    "vendor": "Redragon",
+                    "version": "a2a29b",
+                    "zone_idx": 0
+                }
+            ],
+            "EffectClassName": "StarryNight",
+            "FPS": 60,
+            "RandomColors": true,
+            "Slider2Val": 20,
+            "Speed": 83,
+            "UserColors": [
+                16770304,
+                16711896,
+                11206400,
+                16384255,
+                16711680
+            ]
+        }
+    ],
+    "version": 2
+}

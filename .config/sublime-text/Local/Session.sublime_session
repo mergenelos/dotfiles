@@ -5,7 +5,7 @@
 	"last_version": 4126,
 	"last_window_id": 3,
 	"log_indexing": false,
-	"next_update_check": 1651569296,
+	"next_update_check": 1651914896,
 	"settings":
 	{
 		"new_window_full_screen": false,
@@ -54,6 +54,7 @@
 			},
 			"file_history":
 			[
+				"/home/mak/Projects/3dDesigns/ender3_camera_mount_holder/README.md",
 				"/run/media/mak/Data/Projects/connect.sh",
 				"/run/media/mak/Data/Projects/tictactoe/ProbA.m",
 				"/run/media/mak/Data/Projects/ECG/ecg/Barname microcontroller.asm",
@@ -211,6 +212,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/mak/text.txt",
+					"settings":
+					{
+						"buffer_size": 580,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -248,6 +258,7 @@
 			},
 			"file_history":
 			[
+				"/home/mak/Projects/3dDesigns/ender3_camera_mount_holder/README.md",
 				"/run/media/mak/Data/Projects/connect.sh",
 				"/run/media/mak/Data/Projects/tictactoe/ProbA.m",
 				"/run/media/mak/Data/Projects/ECG/ecg/Barname microcontroller.asm",
@@ -337,6 +348,36 @@
 				{
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/mak/text.txt",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 580,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -380,7 +421,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,970,554,1906,1065,3286,1080,1",
+			"position": "0,0,0,0,0,970,526,1906,1037,3286,1080,1",
 			"project": "",
 			"replace":
 			{

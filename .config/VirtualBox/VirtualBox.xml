@@ -11,7 +11,7 @@
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
       <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=4375ffc4-a3f5-46aa-a625-4f00610ee285"/>
       <ExtraDataItem name="GUI/LastItemSelected" value="m=windows"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="970,39,936,501"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="721,148,936,501"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="309,626"/>
       <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture,remindAboutMouseIntegration,remindAboutAutoCapture"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>

@@ -521,9 +521,9 @@
             "height": 1027,
             "load_geometry": true,
             "save_on_exit": true,
-            "width": 936,
-            "x": 970,
-            "y": 39
+            "width": 1108,
+            "x": 812,
+            "y": 24
         },
         "minimize_on_close": true
     }

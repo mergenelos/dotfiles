@@ -518,12 +518,12 @@
     },
     "UserInterface": {
         "geometry": {
-            "height": 1021,
+            "height": 639,
             "load_geometry": true,
             "save_on_exit": true,
             "width": 1108,
-            "x": 812,
-            "y": 59
+            "x": 137,
+            "y": 230
         },
         "minimize_on_close": true
     }

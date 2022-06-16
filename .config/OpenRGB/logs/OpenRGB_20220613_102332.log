@@ -1,0 +1,62 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220613_102332
+====================================================================================================
+
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Start device detection               |
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    Initializing HID interfaces: Success
+1014  |Info:    ------------------------------------------------------
+1014  |Info:    |             Detecting I2C interfaces               |
+1014  |Info:    ------------------------------------------------------
+1015  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:0416 Subsystem: 17AA:3801
+1015  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:0416 Subsystem: 17AA:3801
+1015  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:0416 Subsystem: 17AA:3801
+1015  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:0416 Subsystem: 17AA:3801
+1016  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:0416 Subsystem: 17AA:3801
+1016  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:8C22 Subsystem: 17AA:3978
+1016  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1016  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:0416 Subsystem: 17AA:3801
+1016  |Info:    ------------------------------------------------------
+1016  |Info:    |               Detecting I2C devices                |
+1016  |Info:    ------------------------------------------------------
+1021  |Info:    ------------------------------------------------------
+1021  |Info:    |               Detecting HID devices                |
+1021  |Info:    ------------------------------------------------------
+1076  |Info:    Loading plugins
+1538  |Info:    [K530] Registering RGB controller
+1539  |Info:    ------------------------------------------------------
+1539  |Info:    |              Detecting other devices               |
+1539  |Info:    ------------------------------------------------------
+1549  |Info:    ------------------------------------------------------
+1549  |Info:    |                Detection completed                 |
+1549  |Info:    ------------------------------------------------------
+14873864|Info:    ------------------------------------------------------
+14873864|Info:    |               Start device detection               |
+14873864|Info:    ------------------------------------------------------
+14873864|Info:    Initializing HID interfaces: Success
+14873868|Info:    ------------------------------------------------------
+14873868|Info:    |             Detecting I2C interfaces               |
+14873868|Info:    ------------------------------------------------------
+14873868|Info:    Registering I2C interface: /dev/i2c-3 Device 8086:0416 Subsystem: 17AA:3801
+14873868|Info:    Registering I2C interface: /dev/i2c-1 Device 8086:0416 Subsystem: 17AA:3801
+14873868|Info:    Registering I2C interface: /dev/i2c-6 Device 8086:0416 Subsystem: 17AA:3801
+14873868|Info:    Registering I2C interface: /dev/i2c-4 Device 8086:0416 Subsystem: 17AA:3801
+14873868|Info:    Registering I2C interface: /dev/i2c-2 Device 8086:0416 Subsystem: 17AA:3801
+14873868|Info:    Registering I2C interface: /dev/i2c-0 Device 8086:8C22 Subsystem: 17AA:3978
+14873868|Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+14873869|Info:    Registering I2C interface: /dev/i2c-5 Device 8086:0416 Subsystem: 17AA:3801
+14873869|Info:    ------------------------------------------------------
+14873869|Info:    |               Detecting I2C devices                |
+14873869|Info:    ------------------------------------------------------
+14873873|Info:    ------------------------------------------------------
+14873874|Info:    |               Detecting HID devices                |
+14873874|Info:    ------------------------------------------------------
+14874348|Info:    [K530] Registering RGB controller
+14874348|Info:    ------------------------------------------------------
+14874348|Info:    |              Detecting other devices               |
+14874348|Info:    ------------------------------------------------------
+14874349|Info:    ------------------------------------------------------
+14874349|Info:    |                Detection completed                 |
+14874349|Info:    ------------------------------------------------------

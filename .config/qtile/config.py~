@@ -42,7 +42,7 @@ from libqtile.utils import guess_terminal
 #from libqtile.utils import guess_terminal
 from MutableScratch import MutableScratch
 from libqtile.config import EzKey
-from plasma import Plasma
+#from plasma import Plasma
 
 # default variables
 mod = "mod4"
@@ -52,12 +52,27 @@ myTerm = "kitty"      # My terminal of choice
 myBrowser = "firefox" # My browser of choice
 dmenu = "j4-dmenu-desktop"
 
+
+win_list = []
+def stick_win(qtile):
+    global win_list
+    win_list.append(qtile.current_window)
+def unstick_win(qtile):
+    global win_list
+    if qtile.current_window in win_list:
+        win_list.remove(qtile.current_window)
+@hook.subscribe.setgroup
+def move_win():
+    for w in win_list:
+        w.togroup(qtile.current_group.name)
+
+
 keys = [
 
     ### The essentials
     Key([mod], "Return",lazy.spawn(myTerm),desc='Launches My Terminal'),
     Key([mod], "d",lazy.spawn(dmenu),desc='j4-dmenu'),
-    Key([mod], "menu",lazy.spawn(dmenu),desc='j4-dmenu'),
+    Key([mod], "Menu",lazy.spawn(dmenu),desc='j4-dmenu'),
     Key([mod, "shift"], "Return",lazy.spawn("dmenu_run -p 'Run: '"),desc='Run Launcher'),
     Key([mod], "b",lazy.spawn(myBrowser),desc='Firefox'),
 
@@ -66,7 +81,27 @@ keys = [
     Key([mod, "shift"], "r",lazy.restart(),desc='Restart Qtile'),
     Key([mod, "shift"], "e",lazy.shutdown(),desc='Shutdown Qtile'),
 
+    Key([mod], "o", lazy.function(stick_win), desc="stick win"),
+    Key([mod, "shift"], "o", lazy.function(unstick_win), desc="unstick win"),
+
+    KeyChord([mod],"s", [
+        Key([], "h",lazy.layout.mode_horizontal(),desc='mode horizontal'),
+        Key([], "v",lazy.layout.mode_vertical(),desc='mode vertical'),
+        Key(["shift"], "h",lazy.layout.mode_horizontal_split(),desc='mode horizontal split'),
+        Key(["shift"], "v",lazy.layout.mode_vertical_split(),desc='mode vertical split')]),
+
+    KeyChord([mod],"r", [
+        Key([], "r", lazy.layout.reset_size(), desc='reset size'),
+        Key([], "w", lazy.layout.grow_width(30), desc='grow width'),
+        Key(["shift"], "w", lazy.layout.grow_width(-30), desc='grow width'),
+        Key([], "h", lazy.layout.grow_height(30), desc='grow height'),
+        Key(["shift"], "h", lazy.layout.grow_height(-30), desc='grow height')],
+        mode="Resize"),
+
+
     Key(["control", "shift"], "e",lazy.spawn("emacsclient -c -a emacs"),desc='Doom Emacs'),
+
+    Key(["control"], "space", lazy.widget["keyboardlayout"].next_keyboard(),   desc="Next keyboard layout"),
 
     # ### Switch focus to specific monitor (out of three)
     # Key([mod], "w",
@@ -86,24 +121,7 @@ keys = [
     Key([mod], "comma",lazy.prev_screen(),desc='Move focus to prev monitor'),
 
 
-# ### Treetab controls
-# Key([mod, "shift"], "h",
-# lazy.layout.move_left(),
-# desc='Move up a section in treetab'
-# ),
-# Key([mod, "shift"], "l",
-# lazy.layout.move_right(),
-# desc='Move down a section in treetab'
-# ),
-#     ### Window controls
-#     Key([mod], "j",
-# lazy.layout.down(),
-# desc='Move focus down in current stack pane'
-#     ),
-#     Key([mod], "k",
-# lazy.layout.up(),
-# desc='Move focus up in current stack pane'
-#     ),
+
 #     Key([mod, "shift"], "j",
 # lazy.layout.shuffle_down(),
 # lazy.layout.section_down(),
@@ -128,14 +146,13 @@ keys = [
 # lazy.layout.normalize(),
 # desc='normalize window size ratios'
 #     ),
-#     Key([mod], "m",
-# lazy.layout.maximize(),
-# desc='toggle window between minimum and maximum sizes'
-#     ),
-#     Key([mod, "shift"], "f",
-#         lazy.window.toggle_floating(),
-#         desc='toggle floating'
-#         ),
+
+    Key([mod], "m", lazy.layout.maximize(), 
+        desc='toggle window between minimum and maximum sizes'
+    ),
+    
+    Key([mod, "shift"], "f", lazy.window.toggle_floating(), desc='toggle floating'),
+    
     Key([mod], "f",lazy.window.toggle_fullscreen(),desc='toggle fullscreen'),
 
 #     ### Stack controls
@@ -159,16 +176,16 @@ keys = [
     Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
     Key([mod], "space", lazy.layout.next(),desc="Move window focus to other window"),
-
+ 
     # Move windows between left/right columns or move up/down in current stack.
     # Moving out of range in Columns layout will create new column.
-    Key([mod, "shift"], "h", lazy.layout.shuffle_left(),
+    Key([mod, "shift"], "h", lazy.layout.move_left(),
         desc="Move window to the left"),
-    Key([mod, "shift"], "l", lazy.layout.shuffle_right(),
+    Key([mod, "shift"], "l", lazy.layout.move_right(),
         desc="Move window to the right"),
-    Key([mod, "shift"], "j", lazy.layout.shuffle_down(),
+    Key([mod, "shift"], "j", lazy.layout.move_down(),
         desc="Move window down"),
-    Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
+    Key([mod, "shift"], "k", lazy.layout.move_up(), desc="Move window up"),
 
     # Grow windows. If current window is on the edge of screen and direction
     # will be to screen edge - window would shrink.
@@ -188,7 +205,7 @@ keys = [
         desc="Toggle between split and unsplit sides of stack"),
 
     # Emacs programs launched using the key chord CTRL+e followed by 'key'
-    KeyChord(["control"],"e", [
+    KeyChord([mod],"e", [
         Key([], "e",
             lazy.spawn("emacsclient -c -a 'emacs'"),
             desc='Launch Emacs'
@@ -220,8 +237,8 @@ keys = [
         Key([], "v",
             lazy.spawn("emacsclient -c -a 'emacs' --eval '(+vterm/here nil)'"),
             desc='Launch vterm inside Emacs'
-            )
-    ]),
+            )],
+    ),
 
 ]
 
@@ -238,15 +255,7 @@ layout_theme = {"border_width": 2,
 
 # window layouts
 layouts = [
-    Plasma(
-        border_normal='#333333',
-        border_focus='#00e891',
-        border_normal_fixed='#006863',
-        border_focus_fixed='#00e8dc',
-        border_width=1,
-        margin= 10,
-        border_width_single=0
-    ),
+    Plasma(**layout_theme),
     layout.MonadTall(**layout_theme),
     layout.Max(**layout_theme),
     layout.Floating(**layout_theme),
@@ -255,12 +264,12 @@ layouts = [
     layout.Tile(**layout_theme),
 
     # Try more layouts by unleashing below layouts.
-    layout.Columns(**layout_theme),
+    # layout.Columns(**layout_theme),
     layout.Matrix(**layout_theme),
-    layout.MonadWide(**layout_theme),
-    layout.RatioTile(**layout_theme),
-    layout.TreeTab(**layout_theme),
-    layout.VerticalTile(**layout_theme),
+    # layout.MonadWide(**layout_theme),
+    # layout.RatioTile(**layout_theme),
+    # layout.TreeTab(**layout_theme),
+    # layout.VerticalTile(**layout_theme),
     layout.Zoomy(**layout_theme),
 ]
 
@@ -434,6 +443,22 @@ def init_widgets_list():
                 update_interval = 5,
                 func = lambda: subprocess.check_output(f"{home_dir}/.config/qtile/scripts/num-installed-pkgs").decode("utf-8")
             ),
+            sep,
+            nerd_icon(
+                "",
+                colors[7]
+            ),   
+            widget.KeyboardLayout(
+                foreground = colors[2],
+                background = colors[1],
+                configured_keyboards=['us', 'az', 'ir', 'de' , 'fr']
+            ),
+
+            widget.Chord(
+                foreground = colors[2],
+                background = colors[1],
+            ),
+
 
             # Left Side of the bar
 
@@ -568,25 +593,25 @@ mouse = [
 #
 # assign apps to groups/workspace
 #
-@hook.subscribe.client_new
-def assign_app_group(client):
-    d = {}
+# @hook.subscribe.client_new
+# def assign_app_group(client):
+#     d = {}
 
-    # assign deez apps
-    d[group_names[0][0]] = ['Alacritty', 'xfce4-terminal']
-    d[group_names[1][0]] = ['Navigator', 'discord', 'brave-browser', 'midori', 'qutebrowser']
-    d[group_names[2][0]] = ['pcmanfm', 'thunar']
-    d[group_names[3][0]] = ['code', 'geany']
-    d[group_names[4][0]] = ['vlc', 'obs', 'mpv', 'mplayer', 'lxmusic', 'gimp']
-    d[group_names[5][0]] = ['spotify']
-    d[group_names[6][0]] = ['lxappearance', 'gpartedbin', 'lxtask', 'lxrandr', 'arandr', 'pavucontrol', 'xfce4-settings-manager']
+#     # assign deez apps
+#     d[group_names[0][0]] = ['Alacritty', 'xfce4-terminal']
+#     d[group_names[1][0]] = ['Navigator', 'discord', 'brave-browser', 'midori', 'qutebrowser']
+#     d[group_names[2][0]] = ['pcmanfm', 'thunar']
+#     d[group_names[3][0]] = ['code', 'geany']
+#     d[group_names[4][0]] = ['vlc', 'obs', 'mpv', 'mplayer', 'lxmusic', 'gimp']
+#     d[group_names[5][0]] = ['spotify']
+#     d[group_names[6][0]] = ['lxappearance', 'gpartedbin', 'lxtask', 'lxrandr', 'arandr', 'pavucontrol', 'xfce4-settings-manager']
 
-    wm_class = client.window.get_wm_class()[0]
-    for i in range(len(d)):
-        if wm_class in list(d.values())[i]:
-            group = list(d.keys())[i]
-            client.togroup(group)
-            client.group.cmd_toscreen(toggle=False)
+#     wm_class = client.window.get_wm_class()[0]
+#     for i in range(len(d)):
+#         if wm_class in list(d.values())[i]:
+#             group = list(d.keys())[i]
+#             client.togroup(group)
+#             client.group.cmd_toscreen(toggle=False)
 
 
 main = None
@@ -645,31 +670,3 @@ keys.extend( [
     EzKey('M-<minus>',   mutscr.toggle()),
     EzKey('M-C-<minus>', mutscr.remove()),
 ] )
-
-#Plasma
-keymap = {
-    'M-h': lazy.layout.left(),
-    'M-j': lazy.layout.down(),
-    'M-k': lazy.layout.up(),
-    'M-l': lazy.layout.right(),
-    'M-S-h': lazy.layout.move_left(),
-    'M-S-j': lazy.layout.move_down(),
-    'M-S-k': lazy.layout.move_up(),
-    'M-S-l': lazy.layout.move_right(),
-    'M-A-h': lazy.layout.integrate_left(),
-    'M-A-j': lazy.layout.integrate_down(),
-    'M-A-k': lazy.layout.integrate_up(),
-    'M-A-l': lazy.layout.integrate_right(),
-    'M-d': lazy.layout.mode_horizontal(),
-    'M-v': lazy.layout.mode_vertical(),
-    'M-S-d': lazy.layout.mode_horizontal_split(),
-    'M-S-v': lazy.layout.mode_vertical_split(),
-    'M-a': lazy.layout.grow_width(30),
-    'M-x': lazy.layout.grow_width(-30),
-    'M-S-a': lazy.layout.grow_height(30),
-    'M-S-x': lazy.layout.grow_height(-30),
-    'M-C-5': lazy.layout.size(500),
-    'M-C-8': lazy.layout.size(800),
-    'M-n': lazy.layout.reset_size(),
-}
-keys.extend( [EzKey(k, v) for k, v in keymap.items()] )

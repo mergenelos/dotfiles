@@ -1,0 +1,34 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220630_050923
+====================================================================================================
+
+1061  |Info:    ------------------------------------------------------
+1061  |Info:    |               Start device detection               |
+1061  |Info:    ------------------------------------------------------
+1061  |Info:    Initializing HID interfaces: Success
+1067  |Info:    ------------------------------------------------------
+1067  |Info:    |             Detecting I2C interfaces               |
+1067  |Info:    ------------------------------------------------------
+1069  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:0416 Subsystem: 17AA:3801
+1069  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:0416 Subsystem: 17AA:3801
+1069  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:0416 Subsystem: 17AA:3801
+1069  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:0416 Subsystem: 17AA:3801
+1069  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:0416 Subsystem: 17AA:3801
+1070  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:8C22 Subsystem: 17AA:3978
+1070  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1070  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:0416 Subsystem: 17AA:3801
+1070  |Info:    ------------------------------------------------------
+1070  |Info:    |               Detecting I2C devices                |
+1070  |Info:    ------------------------------------------------------
+1095  |Info:    ------------------------------------------------------
+1095  |Info:    |               Detecting HID devices                |
+1095  |Info:    ------------------------------------------------------
+1215  |Info:    Loading plugins
+1761  |Info:    [K530] Registering RGB controller
+1761  |Info:    ------------------------------------------------------
+1761  |Info:    |              Detecting other devices               |
+1761  |Info:    ------------------------------------------------------
+1773  |Info:    ------------------------------------------------------
+1773  |Info:    |                Detection completed                 |
+1773  |Info:    ------------------------------------------------------

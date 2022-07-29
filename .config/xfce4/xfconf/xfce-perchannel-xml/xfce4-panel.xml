@@ -13,7 +13,7 @@
       <property name="size" type="uint" value="24"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="18"/>
-        <value type="int" value="1"/>
+        <value type="int" value="8"/>
         <value type="int" value="17"/>
         <value type="int" value="16"/>
         <value type="int" value="7"/>
@@ -23,10 +23,11 @@
         <value type="int" value="3"/>
         <value type="int" value="4"/>
         <value type="int" value="5"/>
+        <value type="int" value="21"/>
         <value type="int" value="6"/>
-        <value type="int" value="8"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
+        <value type="int" value="22"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
@@ -37,11 +38,6 @@
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="show-generic-names" type="bool" value="true"/>
-      <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-icon" type="string" value="distributor-logo-archlinux"/>
-    </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
       <property name="show-handle" type="bool" value="false"/>
@@ -62,20 +58,20 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “maknet” active: maknet (71%)"/>
+        <value type="string" value="openrgb"/>
         <value type="string" value="blueberry-tray.py"/>
         <value type="string" value="guake"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="toolbox"/>
+        <value type="string" value="Skype1"/>
+        <value type="string" value="Yakuake"/>
         <value type="string" value="qBittorrent"/>
         <value type="string" value="CopyQ_copyq"/>
         <value type="string" value="jetbrains-toolbox"/>
         <value type="string" value="openrgb"/>
       </property>
-    </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance13228"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -114,6 +110,12 @@
     </property>
     <property name="plugin-20" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="whiskermenu"/>
+    <property name="plugin-21" type="string" value="xkb"/>
+    <property name="plugin-22" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="firefox.instance61414;plasma-browser-integration"/>
     </property>
   </property>
 </channel>

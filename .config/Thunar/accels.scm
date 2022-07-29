@@ -1,12 +1,9 @@
-; thunar GtkAccelMap rc-file         -*- scheme -*-
+; Thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
 ; (gtk_accel_path "<Actions>/ThunarLauncher/delete-3" "<Shift>KP_Delete")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/0be188dad6423f8f4d65c361550e6076" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/delete" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/93f859d1c973f7430b4ed86b292b8ebf" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/invert-selection" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/5b2c6646e91a8145f2280feb6d204bb1" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/open-in-new-tab" "<Primary><Shift>p")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/delete-2" "<Shift>Delete")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-in" "<Primary>KP_Add")
@@ -35,14 +32,12 @@
 ; (gtk_accel_path "<Actions>/ThunarLauncher/trash-delete" "Delete")
 ; (gtk_accel_path "<Actions>/ThunarWindow/sendto-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/reload-alt" "F5")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/9582e7691f78b4e3b13e2d34fa6ad40c" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-out-alt" "<Primary>minus")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-by-pattern" "<Primary>s")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/create-document" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/close-tab" "<Primary>w")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-tree" "<Primary>e")
 ; (gtk_accel_path "<Actions>/ThunarShortcutsPane/sendto-shortcuts" "")
-; (gtk_accel_path "<Actions>/ThunarBookmarks/f3fde1f2d89b67e77f0521a0a1d42271" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/rename" "F2")
 ; (gtk_accel_path "<Actions>/ThunarWindow/toggle-side-pane" "F9")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-home" "<Alt>Home")

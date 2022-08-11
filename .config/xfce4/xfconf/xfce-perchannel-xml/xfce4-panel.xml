@@ -35,6 +35,8 @@
         <value type="int" value="19"/>
       </property>
       <property name="nrows" type="uint" value="1"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="output-name" type="string" value="Primary"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -58,12 +60,17 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="no network connection"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="wi-fi network connection “maknet” active: maknet (71%)"/>
         <value type="string" value="openrgb"/>
         <value type="string" value="blueberry-tray.py"/>
         <value type="string" value="guake"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="vlc"/>
         <value type="string" value="toolbox"/>
         <value type="string" value="Skype1"/>
         <value type="string" value="Yakuake"/>
@@ -115,7 +122,7 @@
     <property name="plugin-21" type="string" value="xkb"/>
     <property name="plugin-22" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance61414;plasma-browser-integration"/>
+      <property name="mpris-players" type="string" value="firefox.instance1013606;firefox.instance1118390;firefox.instance1194055;firefox.instance1353;firefox.instance1590;firefox.instance212535;firefox.instance2347426;firefox.instance38939;firefox.instance4896;firefox.instance51044;firefox.instance56836;firefox.instance61414;firefox.instance719000;firefox.instance78613;firefox.instance83179;firefox.instance90125;Gwenview;plasma-browser-integration;vlc"/>
     </property>
   </property>
 </channel>

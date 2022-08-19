@@ -4,9 +4,7 @@
 bash $HOME/.config/i3/.fehbg
 
 # polybar
-#$HOME/.config/i3/bin/launchbar.sh
-~/.config/polybar/launch.sh
-
+$HOME/.config/i3/bin/launchbar.sh
 
 # Fix cursor
 xsetroot -cursor_name left_ptr

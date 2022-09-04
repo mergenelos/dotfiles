@@ -28,6 +28,7 @@ alsa-lib
 alsa-plugins
 alsa-topology-conf
 alsa-ucm-conf
+alsa-utils
 anaconda
 analitza
 android-tools
@@ -80,12 +81,15 @@ avr-binutils
 avr-gcc
 avr-libc
 avrdude
+awesome
+awesome-terminal-fonts
 babl
 baloo
 baloo-widgets
 base
 bash
 bash-completion
+bashtop
 bat
 bemenu
 bemenu-ncurses
@@ -181,6 +185,7 @@ cura
 cura-resources-materials
 curaengine
 curl
+cython
 dav1d
 db
 dbus
@@ -444,7 +449,9 @@ hyphen
 i3-gaps
 i3lock
 i3lock-fancy-git
+i3status-rust
 iana-etc
+ibus
 icoextract
 icoutils
 icu
@@ -467,6 +474,7 @@ iputils
 ipython
 iso-codes
 itinerary
+iw
 iwd
 j4-dmenu-desktop
 jansson
@@ -572,7 +580,7 @@ kdenlive
 kdepim-addons
 kdepim-runtime
 kdeplasma-addons
-kdesdk-kioslaves
+kdesdk-kio
 kdesdk-thumbnailers
 kdesu
 kdevelop
@@ -626,6 +634,7 @@ kio
 kio-extras
 kio-fuse
 kio-gdrive
+kio-zeroconf
 kirigami-gallery
 kirigami2
 kiriki
@@ -702,6 +711,7 @@ krita
 kross
 kruler
 krunner
+ksanecore
 kscreen
 kscreenlocker
 kservice
@@ -737,7 +747,6 @@ kwidgetsaddons
 kwin
 kwindowsystem
 kwordquiz
-kwrite
 kwrited
 kxmlgui
 l-smash
@@ -752,6 +761,7 @@ ldb
 ldns
 lensfun
 leocad
+leptonica
 less
 lib2geom
 lib32-acl
@@ -971,6 +981,7 @@ libcdio-paranoia
 libcdr
 libcerf
 libcloudproviders
+libcmis
 libcolord
 libconfig
 libcups
@@ -1090,6 +1101,7 @@ liblrdf
 libltc
 libluv
 libmad
+libmalcontent
 libmanette
 libmatroska
 libmbim
@@ -1324,6 +1336,7 @@ lua
 lua51
 lua52
 lua53
+lua53-lgi
 luajit
 lutris
 lv2
@@ -1429,6 +1442,7 @@ nlopt
 nm-connection-editor
 node-gyp
 nodejs
+nodejs-material-design-icons
 nodejs-nopt
 noto-fonts
 npm
@@ -1439,6 +1453,7 @@ ntfs-3g
 ntl
 numactl
 nvidia-utils
+nvtop
 oath-toolkit
 ocl-icd
 octave
@@ -1654,6 +1669,7 @@ python-argon2_cffi
 python-asttokens
 python-async_generator
 python-attrs
+python-autocommand
 python-automat
 python-babel
 python-backcall
@@ -1672,6 +1688,7 @@ python-configobj
 python-constantly
 python-contextlib2
 python-cryptography
+python-cssselect
 python-cvxopt
 python-cycler
 python-cypari2
@@ -1705,6 +1722,7 @@ python-idna
 python-imagesize
 python-importlib-metadata
 python-incremental
+python-inflect
 python-ipykernel
 python-ipython-genutils
 python-ipywidgets
@@ -1731,7 +1749,7 @@ python-markupsafe
 python-matplotlib
 python-matplotlib-inline
 python-memory-allocator
-python-mistune1
+python-mistune
 python-more-itertools
 python-mpmath
 python-msgpack
@@ -1745,6 +1763,7 @@ python-pandas
 python-pandocfilters
 python-parso
 python-patiencediff
+python-pcbnewtransition
 python-pefile
 python-pep517
 python-pexpect
@@ -1765,6 +1784,7 @@ python-ptyprocess
 python-pure-eval
 python-pybars3
 python-pycparser
+python-pydantic
 python-pygments
 python-pymeta3
 python-pynest2d
@@ -1995,12 +2015,37 @@ rtkit
 rtmpdump
 rubberband
 ruby
+ruby-abbrev
+ruby-base64
+ruby-benchmark
+ruby-bigdecimal
 ruby-bundledgems
 ruby-bundler
+ruby-cgi
+ruby-csv
 ruby-date
+ruby-delegate
+ruby-did_you_mean
+ruby-digest
+ruby-drb
+ruby-english
+ruby-erb
+ruby-etc
+ruby-fcntl
+ruby-fiddle
+ruby-fileutils
+ruby-find
+ruby-forwardable
+ruby-getoptlong
+ruby-io-console
+ruby-io-nonblock
+ruby-io-wait
+ruby-ipaddr
 ruby-irb
 ruby-json
+ruby-logger
 ruby-minitest
+ruby-mutex_m
 ruby-net-http
 ruby-open-uri
 ruby-power_assert
@@ -2009,10 +2054,12 @@ ruby-rake
 ruby-rdoc
 ruby-reline
 ruby-rexml
+ruby-ruby2_keywords
 ruby-stdlib
 ruby-stringio
 ruby-test-unit
 ruby-time
+ruby-tmpdir
 ruby-uri
 rubygems
 run-parts
@@ -2083,6 +2130,7 @@ soundtouch
 source-highlight
 spandsp
 spectacle
+speedtest-cli
 speex
 speexdsp
 spglib
@@ -2121,6 +2169,7 @@ sympow
 syndication
 syntax-highlighting
 sysfsutils
+sysstat
 systemd
 systemd-libs
 systemd-sysvcompat
@@ -2155,6 +2204,10 @@ telepathy-logger-qt
 telepathy-mission-control
 telepathy-morse
 telepathy-qt
+terminus-font
+tesseract
+tesseract-data-eng
+tesseract-data-osd
 tevent
 texinfo
 texlive-bin
@@ -2182,14 +2235,17 @@ tre
 tree
 tree-sitter
 tslib
+ttf-comfortaa
 ttf-dejavu
 ttf-font-awesome
 ttf-hack
+ttf-icomoon-feather
+ttf-iosevka
 ttf-iosevka-nerd
 ttf-jetbrains-mono
 ttf-liberation
 ttf-meslo-nerd-font-powerlevel10k
-ttf-nerd-fonts-symbols-mono
+ttf-nerd-fonts-symbols-1000-em
 tumbler
 twolame
 tzdata
@@ -2377,7 +2433,6 @@ yay
 zanshin
 zbar
 zenity
-zeroconf-ioslave
 zeromq
 zimg
 zip
@@ -2385,6 +2440,7 @@ zita-convolver
 zlib
 zn_poly
 zram-generator
+zscroll-git
 zsh
 zsh-syntax-highlighting
 zstd

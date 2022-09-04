@@ -1,0 +1,34 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220831_080630
+====================================================================================================
+
+1068  |Info:    ------------------------------------------------------
+1068  |Info:    |               Start device detection               |
+1068  |Info:    ------------------------------------------------------
+1068  |Info:    Initializing HID interfaces: Success
+1075  |Info:    ------------------------------------------------------
+1075  |Info:    |             Detecting I2C interfaces               |
+1075  |Info:    ------------------------------------------------------
+1077  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:0416 Subsystem: 17AA:3801
+1077  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:0416 Subsystem: 17AA:3801
+1077  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:0416 Subsystem: 17AA:3801
+1077  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:0416 Subsystem: 17AA:3801
+1077  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:0416 Subsystem: 17AA:3801
+1077  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:8C22 Subsystem: 17AA:3978
+1077  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1077  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:0416 Subsystem: 17AA:3801
+1078  |Info:    ------------------------------------------------------
+1078  |Info:    |               Detecting I2C devices                |
+1078  |Info:    ------------------------------------------------------
+1142  |Info:    ------------------------------------------------------
+1142  |Info:    |               Detecting HID devices                |
+1142  |Info:    ------------------------------------------------------
+1337  |Info:    Loading plugins
+1806  |Info:    [K530] Registering RGB controller
+1806  |Info:    ------------------------------------------------------
+1806  |Info:    |              Detecting other devices               |
+1806  |Info:    ------------------------------------------------------
+1818  |Info:    ------------------------------------------------------
+1818  |Info:    |                Detection completed                 |
+1818  |Info:    ------------------------------------------------------

@@ -1,0 +1,34 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220825_042116
+====================================================================================================
+
+1057  |Info:    ------------------------------------------------------
+1057  |Info:    |               Start device detection               |
+1057  |Info:    ------------------------------------------------------
+1057  |Info:    Initializing HID interfaces: Success
+1067  |Info:    ------------------------------------------------------
+1068  |Info:    |             Detecting I2C interfaces               |
+1068  |Info:    ------------------------------------------------------
+1130  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:0416 Subsystem: 17AA:3801
+1130  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:0416 Subsystem: 17AA:3801
+1130  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:0416 Subsystem: 17AA:3801
+1130  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:0416 Subsystem: 17AA:3801
+1130  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:0416 Subsystem: 17AA:3801
+1130  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:8C22 Subsystem: 17AA:3978
+1130  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1130  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:0416 Subsystem: 17AA:3801
+1130  |Info:    ------------------------------------------------------
+1130  |Info:    |               Detecting I2C devices                |
+1130  |Info:    ------------------------------------------------------
+1234  |Info:    Loading plugins
+1374  |Info:    ------------------------------------------------------
+1374  |Info:    |               Detecting HID devices                |
+1374  |Info:    ------------------------------------------------------
+2040  |Info:    [K530] Registering RGB controller
+2040  |Info:    ------------------------------------------------------
+2040  |Info:    |              Detecting other devices               |
+2040  |Info:    ------------------------------------------------------
+2063  |Info:    ------------------------------------------------------
+2063  |Info:    |                Detection completed                 |
+2063  |Info:    ------------------------------------------------------

@@ -93,7 +93,7 @@ unset use_color safe_term match_lhs sh
 
 
 export BROWSER=/usr/bin/firefox
-export TERMINAL=/usr/bin/alacritty
+export TERMINAL=/usr/bin/kitty
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/subl4
 export FILEMANAGER=/usr/bin/pcmanfm

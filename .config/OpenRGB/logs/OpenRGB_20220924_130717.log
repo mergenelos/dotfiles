@@ -1,0 +1,34 @@
+    OpenRGB v0.7
+    Commit:  from 
+    Launched: 20220924_130717
+====================================================================================================
+
+1024  |Info:    ------------------------------------------------------
+1024  |Info:    |               Start device detection               |
+1024  |Info:    ------------------------------------------------------
+1025  |Info:    Initializing HID interfaces: Success
+1034  |Info:    ------------------------------------------------------
+1034  |Info:    |             Detecting I2C interfaces               |
+1034  |Info:    ------------------------------------------------------
+1036  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:0416 Subsystem: 17AA:3801
+1036  |Info:    Registering I2C interface: /dev/i2c-1 Device 8086:0416 Subsystem: 17AA:3801
+1036  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:0416 Subsystem: 17AA:3801
+1037  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:0416 Subsystem: 17AA:3801
+1037  |Info:    Registering I2C interface: /dev/i2c-2 Device 8086:0416 Subsystem: 17AA:3801
+1037  |Info:    Registering I2C interface: /dev/i2c-0 Device 8086:8C22 Subsystem: 17AA:3978
+1037  |Info:    Registering I2C interface: /dev/i2c-7 Device 0000:0000 Subsystem: 0000:0000
+1037  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:0416 Subsystem: 17AA:3801
+1037  |Info:    ------------------------------------------------------
+1037  |Info:    |               Detecting I2C devices                |
+1037  |Info:    ------------------------------------------------------
+1052  |Info:    ------------------------------------------------------
+1052  |Info:    |               Detecting HID devices                |
+1052  |Info:    ------------------------------------------------------
+1723  |Info:    [K530] Registering RGB controller
+1723  |Info:    ------------------------------------------------------
+1723  |Info:    |              Detecting other devices               |
+1723  |Info:    ------------------------------------------------------
+1732  |Info:    ------------------------------------------------------
+1732  |Info:    |                Detection completed                 |
+1732  |Info:    ------------------------------------------------------
+5022  |Info:    Loading plugins

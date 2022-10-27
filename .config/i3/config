@@ -1,17 +1,14 @@
-## i3 config file for Axyl
-##
+## i3 config file ##
 
 set $alt Mod1
 set $mod Mod4
 
-##~~~ Global Font ~~~~~~~~~~~~~~~~~~~~~~ 
-##
+##~~~ Global Font ~~~~~~~~~~~~~~~~~~~~~~ ##
 
-font pango:Source Code Pro Medium 10
+font pango:Source Code Pro Medium 8
 
 
-##~~~ Gaps Configuration ~~~~~~~~~~~~~~~ 
-##
+##~~~ Gaps Configuration ~~~~~~~~~~~~~~~ ##
 
 # Title bar text alignment
 title_align center
@@ -27,13 +24,12 @@ gaps inner 10
 gaps outer 0
 
 # Only enable gaps on a workspace when there is at least one container
-#smart_gaps on
+smart_gaps on
 
 # Activate smart borders (always)
-#smart_borders on
+smart_borders on
 
-##~~~ Default Color Scheme (Everforest) 
-##
+##~~~ Default Color Scheme (Everforest) ##
 
 client.background       #2b3339
 
@@ -45,8 +41,19 @@ client.urgent           #BF616A #BF616A #D8DEE9 #a7c080   #BF616A
 client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
 
 
-##~~~ Keybindings ~~~~~~~~~~~~~~~~~~~~~~
-##
+##~~~ Keybindings ~~~~~~~~~~~~~~~~~~~~~~##
+
+# Exit menu
+bindsym $mod+Shift+e exec i3-nagbar -f "pango:Terminus 12" \
+-m "Exit i3? This will end your current X session." \
+-B "Exit now" "i3-msg exit" \
+-B "Suspend" "systemctl suspend && pkill i3-nagbar" \
+-B "Reboot" "systemctl reboot" \
+-B "Power off" "systemctl poweroff" \
+
+
+# run tray
+bindsym $mod+t exec ~/.config/i3/tray.sh
 
 # reload the configuration file
 #bindsym $mod+Shift+c reload
@@ -54,7 +61,7 @@ client.placeholder      #2E3440 #2E3440 #D8DEE9 #a7c080   #2E3440
 # Restart/Quit i3 session 
 bindsym Control+Shift+r restart
 bindsym Control+Shift+q exec "pkill -KILL -u $USER"
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -65,8 +72,13 @@ bindsym $mod+Shift+q kill
 # Border toggle
 bindsym $mod+x border toggle
 
+
+# Sticky window toggle
+bindsym $mod+Shift+s sticky toggle
+
 # start dmenu (a program launcher)
-bindsym $mod+d exec j4-dmenu-desktop
+bindsym $mod+d exec j4-dmenu-desktop --dmenu "dmenu -fn 'UbuntuMono Nerd Font:pixelsize=16' -nb '#023440' -nf '#888888' -sb '#00BAA7' -sf '#ffffff' -i -p 'Run:'"
+bindsym Menu exec --no-startup-id sh -c "launcher_misc"
 
 # change focus
 #bindsym $mod+h focus up
@@ -113,7 +125,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-#bindsym $mod+a focus parent
+bindsym $mod+p focus parent
 
 # focus the child container
 bindsym $mod+z focus child
@@ -130,16 +142,16 @@ bindsym $mod+Shift+greater move container to output right
 bindsym $mod+Shift+less move container to output left
 
 
-set $tag1 
-set $tag2 
-set $tag3 
-set $tag4 
-set $tag5 
-set $tag6 
-set $tag7 
-set $tag8 
-set $tag9 
-set $tag0 
+set $tag1 1
+set $tag2 2
+set $tag3 3
+set $tag4 4
+set $tag5 5
+set $tag6 6
+set $tag7 7
+set $tag8 8
+set $tag9 9
+set $tag0 0
 
 
 # switch to workspace
@@ -175,7 +187,7 @@ bindsym XF86AudioMute exec --no-startup-id amixer -q sset Master toggle # mute s
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
 
-# Touchpad controls
+# Sleep controls
 bindsym --release XF86Sleep exec ~/.i3/bin/i3lock.sh && systemctl suspend
 
 
@@ -201,8 +213,7 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
-##~~~ Rules For Workspaces ~~~~~~~~~~~~~~~~~~~~
-##
+##~~~ Rules For Workspaces ~~~~~~~~~~~~~~~~~~~~##
 
 #assign [class="Alacritty"] 1
 #assign [class="firefox|discord"] 2
@@ -211,19 +222,18 @@ bindsym $mod+r mode "resize"
 #assign [class="Gimp-2.10|vlc|Inkscape"] 5
 #assign [class="VirtualBox Manager"] 7
 
-##~~~ Rules For Windows ~~~~~~~~~~~~~~~~~~~~~~~ 
-##
+##~~~ Rules For Windows ~~~~~~~~~~~~~~~~~~~~~~~ ##
 
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
 
 for_window [class="zoom"] floating enable
+for_window [class="mpv"] floating enable
 for_window [class="Alafloat|Matplotlib"] floating enable
 for_window [class="Onboard|Yad"] floating enable
 for_window [class="feh|Viewnior|MPlayer"] floating enable
 
-##~~~ Autostart ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-##
+##~~~ Autostart ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##
 
 exec_always --no-startup-id "~/.config/i3/bin/autostart.sh"
 

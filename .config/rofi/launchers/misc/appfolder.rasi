@@ -17,29 +17,17 @@ configuration {
 	sidebar-mode: 					false;
 }
 
-/* -- Light -- */
-* {
-    background:                     #e5e5e5ff;
-    background-alt:              	#00000000;
-    background-bar:                 #FFFFFFFF;
-    foreground:                     #000000A6;
-    accent:			            	#80808066;
-    border:		               		#1A73E9FF;
-    selected:               		#D7D7D7FF;
-}
 
-/* -- Dark -- */
-/*
 * {
-    background:                     #212121ff;
-    background-alt:              	#00000000;
+    background:                     #023440;
+    background-alt:                 #00000000;
     background-bar:                 #151515FF;
     foreground:                     #EDEDEDFF;
-    accent:			            	#EDEDED4d;
-    border:		               		#1A73E9FF;
-    selected:               		#151515ff;
+    accent:                         #1C9E95;
+    border:                         #1A73E9FF;
+    selected:                       #1488CE;
 }
-*/
+
 
 window {
     transparency:                   "real";
@@ -49,8 +37,8 @@ window {
 	border-color:					@border;
     border-radius:                  5px;
 	width:							27%;
-    location:                       east;
-    x-offset:                       -20px;
+    location:                       west;
+    x-offset:                       20px;
     y-offset:                       0;
 }
 
@@ -118,7 +106,7 @@ element-icon {
     text-color:       				inherit;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    size:                           64px;
+    size:                           32px;
     border:                         0px;
 }
 

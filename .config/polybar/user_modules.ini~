@@ -112,7 +112,7 @@ content-foreground = ${color.fg}
 content-padding = 1
 
 click-left = launcher_text
-click-right = bemenu-run
+click-right = dmenu_run
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 

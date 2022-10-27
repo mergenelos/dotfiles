@@ -67,7 +67,7 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 
 #exports
 export BROWSER=/usr/bin/firefox
-export TERMINAL=/usr/bin/alacritty
+export TERMINAL=/usr/bin/kitty
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/subl4
 export FILEMANAGER=/usr/bin/pcmanfm
@@ -147,8 +147,8 @@ alias subl="/opt/sublime_text/sublime_text %F"
 alias anaconda-activate='source /opt/anaconda/bin/activate root'
 alias anaconda-deactivate='source /opt/anaconda/bin/deactivate root'
 
-export QT_QPA_PLATFORMTHEME=qt5ct 
+export QT_QPA_PLATFORMTHEME=gtk2
 export PATH=/usr/bin:$PATH
 export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
-#eval "$(starship init zsh)"
+eval "$(starship init zsh)"

@@ -3,6 +3,9 @@
 # sets wallpaper using feh
 bash $HOME/.config/i3/.fehbg
 
+# start arandr
+~/.screenlayout/duali3.sh
+
 # polybar
 #$HOME/.config/i3/bin/launchbar.sh
 ~/.config/polybar/launch.sh
@@ -14,19 +17,11 @@ xsetroot -cursor_name left_ptr
 # kill if already running
 killall -9 picom xfce4-power-manager ksuperkey dunst sxhkd conky eww
 
-# Launch Conkeww
-sed -i "s/colors\/color-.*/colors\/color-nord.yuck\")/g" $HOME/.config/conkeww/eww.yuck
-eww --config $HOME/.config/conkeww/ open conkeww-main
-
-# Launch Conky
-conky -c $HOME/.config/conky/axyl.conkyrc
+# Launch conky
 
 # sets superkey
 ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
-
-# start hotkey daemon
-sxhkd &
 
 # Launch notification daemon
 dunst -config $HOME/.config/i3/dunstrc &
@@ -42,13 +37,22 @@ if [[ ! `pidof xfce-polkit` ]]; then
     /usr/lib/xfce-polkit/xfce-polkit &
 fi
 
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
 # start udiskie
 udiskie &
 
-# replace neovim colorscheme
-sed -i "s/theme =.*$/theme = \"norchad\",/g" $HOME/.config/nvim/lua/chadrc.lua
+# start copyq
+copyq &
 
-# change xfce4-terminal colorscheme
-XFCE_TERM_PATH="$HOME/.config/xfce4/terminal"
-cp "$XFCE_TERM_PATH"/colorschemes/nord "$XFCE_TERM_PATH"/terminalrc
+# start numlockx
+numlockx on &
 
+# start unclutter
+unclutter &
+
+# start nm-applet
+nm-applet &
+
+# set keymap
+setxkbmap -model pc105 -layout us,az,tr,ir -option grp:alt_shift_toggle &

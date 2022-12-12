@@ -1,16 +1,39 @@
 {
+	"file_history":
+	[
+		"/home/mak/github/Libraries/STM/MS5611/main.c",
+		"/home/mak/Projects/ECG/ecg/Daryaft data.py",
+		"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
+		"/home/mak/Projects/backHis.py",
+		"/home/mak/Projects/test_image.py",
+		"/home/mak/Projects/test_video.py",
+		"/home/mak/Projects/HadideQalaviz.py",
+		"/home/mak/Projects/spurGears.py",
+		"/home/mak/.win10.draft.txt",
+		"/home/mak/Projects/ECG/ecg/Namayesh nomudar.py",
+		"/home/mak/github/Libraries/STM/MS5611/MS5611.c",
+		"/home/mak/github/Libraries/STM/MS5611/MS5611.h",
+		"/home/mak/Documents/MyResume/about.html",
+		"/home/mak/cMain.c",
+		"/home/mak/main.py"
+	],
 	"folder_history":
 	[
 	],
-	"last_version": 4126,
+	"last_version": 4143,
 	"last_window_id": 3,
 	"log_indexing": false,
-	"next_update_check": 1666341931,
+	"next_update_check": 1669027254,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 335.0,
-		"new_window_maximized": false,
+		"new_window_height": 0.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			72.0
+		],
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -54,6 +77,27 @@
 			},
 			"file_history":
 			[
+				"/home/mak/github/Libraries/STM/MS5611/main.c",
+				"/home/mak/Projects/ECG/ecg/Daryaft data.py",
+				"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
+				"/home/mak/Projects/backHis.py",
+				"/home/mak/Projects/test_image.py",
+				"/home/mak/Projects/test_video.py",
+				"/home/mak/Projects/HadideQalaviz.py",
+				"/home/mak/Projects/spurGears.py",
+				"/home/mak/.win10.draft.txt",
+				"/home/mak/Projects/ECG/ecg/Namayesh nomudar.py",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.c",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.h",
+				"/home/mak/Documents/MyResume/about.html",
+				"/home/mak/cMain.c",
+				"/home/mak/main.py",
+				"/home/mak/.ubuntu22.04.draft.txt",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/Activation Codes/CLion.txt",
+				"/home/mak/Projects/publish.py",
+				"/home/mak/spurGears.py",
+				"/home/mak/python.py",
+				"/run/media/mak/Data/Documents/unCat/python.py",
 				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/clion.vmoptions",
 				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/clion64.vmoptions",
 				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29.vmoptions",
@@ -79,9 +123,7 @@
 				"/usr/share/maple2022/license/%F",
 				"/usr/bin/maple",
 				"/home/mak/.cache/yay/maple2022/PKGBUILD",
-				"/home/mak/python.py",
 				"/home/mak/.cache/yay/maple18/PKGBUILD",
-				"/home/mak/spurGears.py",
 				"/home/mak/.cache/yay/maple2022/maple2022.desktop",
 				"/home/mak/.cache/yay/maple2021/%F",
 				"/home/mak/.cache/yay/maple2021/PKGBUILD",
@@ -162,17 +204,7 @@
 				"/home/mak/Documents/422920209191515266.txt",
 				"/home/mak/Documents/Visa lot",
 				"/home/mak/Important/particl recovery",
-				"/run/media/mak/Data/Important/text.txt",
-				"/run/media/mak/Data/Important/coursera.txt",
-				"/home/mak/.config/OpenRGB/red.orp",
-				"/home/mak/.config/OpenRGB/ten.orp",
-				"/home/mak/.config/OpenRGB/OpenRGB.json",
-				"/home/mak/Projects/Qt/QDebugInDepth/main.cpp",
-				"/home/mak/.config/sublime-text/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-				"/home/mak/.config/sublime-text/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
-				"/home/mak/Projects/junk/renamer.py",
-				"/home/mak/Projects/Qt/AppsAndMacros/main.cpp",
-				"/home/mak/QDebugInDepth/main.cpp"
+				"/run/media/mak/Data/Important/text.txt"
 			],
 			"find":
 			{
@@ -276,7 +308,7 @@
 			{
 			}
 		},
-		"new_window_width": 939.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -290,18 +322,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/Activation Codes/CLion.txt",
+					"file": "/home/mak/Downloads/mak.ovpn",
 					"settings":
 					{
-						"buffer_size": 2809,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/run/media/mak/Data/Documents/unCat/python.py",
-					"settings":
-					{
-						"buffer_size": 190,
+						"buffer_size": 2765,
 						"line_ending": "Unix"
 					}
 				}
@@ -342,6 +366,27 @@
 			},
 			"file_history":
 			[
+				"/home/mak/github/Libraries/STM/MS5611/main.c",
+				"/home/mak/Projects/ECG/ecg/Daryaft data.py",
+				"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
+				"/home/mak/Projects/backHis.py",
+				"/home/mak/Projects/test_image.py",
+				"/home/mak/Projects/test_video.py",
+				"/home/mak/Projects/HadideQalaviz.py",
+				"/home/mak/Projects/spurGears.py",
+				"/home/mak/.win10.draft.txt",
+				"/home/mak/Projects/ECG/ecg/Namayesh nomudar.py",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.c",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.h",
+				"/home/mak/Documents/MyResume/about.html",
+				"/home/mak/cMain.c",
+				"/home/mak/main.py",
+				"/home/mak/.ubuntu22.04.draft.txt",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/Activation Codes/CLion.txt",
+				"/home/mak/Projects/publish.py",
+				"/home/mak/spurGears.py",
+				"/home/mak/python.py",
+				"/run/media/mak/Data/Documents/unCat/python.py",
 				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/clion.vmoptions",
 				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/clion64.vmoptions",
 				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29.vmoptions",
@@ -367,9 +412,7 @@
 				"/usr/share/maple2022/license/%F",
 				"/usr/bin/maple",
 				"/home/mak/.cache/yay/maple2022/PKGBUILD",
-				"/home/mak/python.py",
 				"/home/mak/.cache/yay/maple18/PKGBUILD",
-				"/home/mak/spurGears.py",
 				"/home/mak/.cache/yay/maple2022/maple2022.desktop",
 				"/home/mak/.cache/yay/maple2021/%F",
 				"/home/mak/.cache/yay/maple2021/PKGBUILD",
@@ -450,17 +493,7 @@
 				"/home/mak/Documents/422920209191515266.txt",
 				"/home/mak/Documents/Visa lot",
 				"/home/mak/Important/particl recovery",
-				"/run/media/mak/Data/Important/text.txt",
-				"/run/media/mak/Data/Important/coursera.txt",
-				"/home/mak/.config/OpenRGB/red.orp",
-				"/home/mak/.config/OpenRGB/ten.orp",
-				"/home/mak/.config/OpenRGB/OpenRGB.json",
-				"/home/mak/Projects/Qt/QDebugInDepth/main.cpp",
-				"/home/mak/.config/sublime-text/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-				"/home/mak/.config/sublime-text/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
-				"/home/mak/Projects/junk/renamer.py",
-				"/home/mak/Projects/Qt/AppsAndMacros/main.cpp",
-				"/home/mak/QDebugInDepth/main.cpp"
+				"/run/media/mak/Data/Important/text.txt"
 			],
 			"find":
 			{
@@ -511,115 +544,12 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/Activation Codes/CLion.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2809,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										2773
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content"
-									],
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 377.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/run/media/mak/Data/Documents/unCat/python.py",
+							"file": "/home/mak/Downloads/mak.ovpn",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 190,
+								"buffer_size": 2765,
 								"regions":
 								{
 								},
@@ -633,83 +563,10 @@
 								"settings":
 								{
 									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content"
-									],
-									"syntax": "Packages/Python/Python.sublime-syntax"
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 342.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -759,7 +616,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,50,74,989,409,1366,768,0",
+			"position": "0,1,0,0,0,0,0,1920,1013,3286,1080,0",
 			"project": "",
 			"replace":
 			{

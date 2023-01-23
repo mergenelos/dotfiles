@@ -1,6 +1,12 @@
 {
 	"file_history":
 	[
+		"/home/mak/Downloads/mak.ovpn",
+		"/home/mak/Downloads/Python/RP2040-Zero.py",
+		"/home/mak/Downloads/C/RP2040_Zero_Test.c",
+		"/home/mak/.cache/.fr-OWHGY1/Version_EN.txt",
+		"/home/mak/.cache/.fr-Q926X1/Raspberry Pi Pico MicroPython Demo Code/Lesson-4 Blink/Blink.py",
+		"/run/media/mak/RPI-RP2/INFO_UF2.TXT",
 		"/home/mak/github/Libraries/STM/MS5611/main.c",
 		"/home/mak/Projects/ECG/ecg/Daryaft data.py",
 		"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
@@ -23,16 +29,16 @@
 	"last_version": 4143,
 	"last_window_id": 3,
 	"log_indexing": false,
-	"next_update_check": 1669027254,
+	"next_update_check": 1672605303,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 0.0,
-		"new_window_maximized": true,
+		"new_window_height": 749.0,
+		"new_window_maximized": false,
 		"new_window_position":
 		[
-			0.0,
-			72.0
+			304.0,
+			271.0
 		],
 		"new_window_settings":
 		{
@@ -77,6 +83,12 @@
 			},
 			"file_history":
 			[
+				"/home/mak/Downloads/mak.ovpn",
+				"/home/mak/Downloads/Python/RP2040-Zero.py",
+				"/home/mak/Downloads/C/RP2040_Zero_Test.c",
+				"/home/mak/.cache/.fr-OWHGY1/Version_EN.txt",
+				"/home/mak/.cache/.fr-Q926X1/Raspberry Pi Pico MicroPython Demo Code/Lesson-4 Blink/Blink.py",
+				"/run/media/mak/RPI-RP2/INFO_UF2.TXT",
 				"/home/mak/github/Libraries/STM/MS5611/main.c",
 				"/home/mak/Projects/ECG/ecg/Daryaft data.py",
 				"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
@@ -198,13 +210,7 @@
 				"/home/mak/.config/qtile/%F",
 				"/home/mak/Downloads/lcd.SLDPRT",
 				"/home/mak/.config/qtile/qtile-mutable-scratch/%F",
-				"/home/mak/.config/qtile/qtile-mutable-scratch/config.py",
-				"/home/mak/.config/qtile/MutableScratch.py",
-				"/home/mak/Downloads/coursera.txt",
-				"/home/mak/Documents/422920209191515266.txt",
-				"/home/mak/Documents/Visa lot",
-				"/home/mak/Important/particl recovery",
-				"/run/media/mak/Data/Important/text.txt"
+				"/home/mak/.config/qtile/qtile-mutable-scratch/config.py"
 			],
 			"find":
 			{
@@ -308,7 +314,7 @@
 			{
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 1440.0
 	},
 	"windows":
 	[
@@ -321,14 +327,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/mak/Downloads/mak.ovpn",
-					"settings":
-					{
-						"buffer_size": 2765,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -366,6 +364,12 @@
 			},
 			"file_history":
 			[
+				"/home/mak/Downloads/mak.ovpn",
+				"/home/mak/Downloads/Python/RP2040-Zero.py",
+				"/home/mak/Downloads/C/RP2040_Zero_Test.c",
+				"/home/mak/.cache/.fr-OWHGY1/Version_EN.txt",
+				"/home/mak/.cache/.fr-Q926X1/Raspberry Pi Pico MicroPython Demo Code/Lesson-4 Blink/Blink.py",
+				"/run/media/mak/RPI-RP2/INFO_UF2.TXT",
 				"/home/mak/github/Libraries/STM/MS5611/main.c",
 				"/home/mak/Projects/ECG/ecg/Daryaft data.py",
 				"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
@@ -487,13 +491,7 @@
 				"/home/mak/.config/qtile/%F",
 				"/home/mak/Downloads/lcd.SLDPRT",
 				"/home/mak/.config/qtile/qtile-mutable-scratch/%F",
-				"/home/mak/.config/qtile/qtile-mutable-scratch/config.py",
-				"/home/mak/.config/qtile/MutableScratch.py",
-				"/home/mak/Downloads/coursera.txt",
-				"/home/mak/Documents/422920209191515266.txt",
-				"/home/mak/Documents/Visa lot",
-				"/home/mak/Important/particl recovery",
-				"/run/media/mak/Data/Important/text.txt"
+				"/home/mak/.config/qtile/qtile-mutable-scratch/config.py"
 			],
 			"find":
 			{
@@ -542,37 +540,6 @@
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/mak/Downloads/mak.ovpn",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2765,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 342.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -616,7 +583,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,1920,1013,3286,1080,0",
+			"position": "0,0,0,0,0,304,199,1744,948,3286,1080,0",
 			"project": "",
 			"replace":
 			{

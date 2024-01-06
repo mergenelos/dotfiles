@@ -130,7 +130,7 @@ module-margin-right = 0
 
 font-0 = "UbuntuMono Nerd Font:size=10;2"
 ;font-0 = "mplus Nerd Font Mono,M+ 1mn:style=regular:size=8;2"
-font-1 = "icomoon\-feather:size=10;2"
+font-1 = "icomoon-feather:size=10;2"
 font-2 = "xos4 Terminus:size=12;2"
 font-3 = "Comfortaa:size=12;2"
 

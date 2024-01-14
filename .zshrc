@@ -146,6 +146,7 @@ alias open='xdg-open'
 alias subl="/opt/sublime_text/sublime_text %F"
 alias anaconda-activate='source /opt/anaconda/bin/activate root'
 alias anaconda-deactivate='source /opt/anaconda/bin/deactivate root'
+alias restart-plasma='systemctl --user restart plasma-plasmashell.service'
 
 export QT_QPA_PLATFORMTHEME=gtk2
 export PATH=/usr/bin:$PATH

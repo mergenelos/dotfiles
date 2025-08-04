@@ -1,0 +1,643 @@
+{
+	"file_history":
+	[
+		"/home/mak/Downloads/mak.ovpn",
+		"/home/mak/Downloads/Python/RP2040-Zero.py",
+		"/home/mak/Downloads/C/RP2040_Zero_Test.c",
+		"/home/mak/.cache/.fr-OWHGY1/Version_EN.txt",
+		"/home/mak/.cache/.fr-Q926X1/Raspberry Pi Pico MicroPython Demo Code/Lesson-4 Blink/Blink.py",
+		"/run/media/mak/RPI-RP2/INFO_UF2.TXT",
+		"/home/mak/github/Libraries/STM/MS5611/main.c",
+		"/home/mak/Projects/ECG/ecg/Daryaft data.py",
+		"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
+		"/home/mak/Projects/backHis.py",
+		"/home/mak/Projects/test_image.py",
+		"/home/mak/Projects/test_video.py",
+		"/home/mak/Projects/HadideQalaviz.py",
+		"/home/mak/Projects/spurGears.py",
+		"/home/mak/.win10.draft.txt",
+		"/home/mak/Projects/ECG/ecg/Namayesh nomudar.py",
+		"/home/mak/github/Libraries/STM/MS5611/MS5611.c",
+		"/home/mak/github/Libraries/STM/MS5611/MS5611.h",
+		"/home/mak/Documents/MyResume/about.html",
+		"/home/mak/cMain.c",
+		"/home/mak/main.py"
+	],
+	"folder_history":
+	[
+	],
+	"last_version": 4143,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"next_update_check": 1672605303,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 749.0,
+		"new_window_maximized": false,
+		"new_window_position":
+		[
+			304.0,
+			271.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 136.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mak/Downloads/mak.ovpn",
+				"/home/mak/Downloads/Python/RP2040-Zero.py",
+				"/home/mak/Downloads/C/RP2040_Zero_Test.c",
+				"/home/mak/.cache/.fr-OWHGY1/Version_EN.txt",
+				"/home/mak/.cache/.fr-Q926X1/Raspberry Pi Pico MicroPython Demo Code/Lesson-4 Blink/Blink.py",
+				"/run/media/mak/RPI-RP2/INFO_UF2.TXT",
+				"/home/mak/github/Libraries/STM/MS5611/main.c",
+				"/home/mak/Projects/ECG/ecg/Daryaft data.py",
+				"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
+				"/home/mak/Projects/backHis.py",
+				"/home/mak/Projects/test_image.py",
+				"/home/mak/Projects/test_video.py",
+				"/home/mak/Projects/HadideQalaviz.py",
+				"/home/mak/Projects/spurGears.py",
+				"/home/mak/.win10.draft.txt",
+				"/home/mak/Projects/ECG/ecg/Namayesh nomudar.py",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.c",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.h",
+				"/home/mak/Documents/MyResume/about.html",
+				"/home/mak/cMain.c",
+				"/home/mak/main.py",
+				"/home/mak/.ubuntu22.04.draft.txt",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/Activation Codes/CLion.txt",
+				"/home/mak/Projects/publish.py",
+				"/home/mak/spurGears.py",
+				"/home/mak/python.py",
+				"/run/media/mak/Data/Documents/unCat/python.py",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/clion.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/clion64.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/221.5787.24/bin/pycharm64.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/221.5787.24/bin/%F",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/221.5787.24.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/%F",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/pycharm.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/%F",
+				"/home/mak/Downloads/JetBrains/Activation Codes/PyCharm.txt",
+				"/home/mak/Downloads/JetBrains ja-netfilter-all Activation Codes Build 220801/Readme.txt",
+				"/home/mak/Downloads/JetBrains/ja-netfilter-all/vmoptions/pycharm.vmoptions",
+				"/home/mak/Downloads/JetBrains ja-netfilter-all Activation Codes Build 220801/ja-netfilter-all/scripts/install.sh",
+				"/home/mak/.dotfiles/.config/i3/%F",
+				"/home/mak/.dotfiles/.config/i3/config",
+				"/home/mak/.dotfiles/.config/i3/bin/autostart.sh",
+				"/home/mak/.cache/yay/maple2022/Maplesoft Maple 2022 Linux64/Crack/license.dat",
+				"/home/mak/.dotfiles/.config/polybar/modules.ini",
+				"/home/mak/.cache/yay/maple2022/Maplesoft Maple 2022 Linux64/Crack/Readme.txt",
+				"/home/mak/.dotfiles/.config/polybar/user_modules.ini",
+				"/home/mak/.dotfiles/.config/polybar/config.ini",
+				"/home/mak/.dotfiles/.config/polybar/%F",
+				"/usr/share/maple2022/license/%F",
+				"/usr/bin/maple",
+				"/home/mak/.cache/yay/maple2022/PKGBUILD",
+				"/home/mak/.cache/yay/maple18/PKGBUILD",
+				"/home/mak/.cache/yay/maple2022/maple2022.desktop",
+				"/home/mak/.cache/yay/maple2021/%F",
+				"/home/mak/.cache/yay/maple2021/PKGBUILD",
+				"/home/mak/.cache/yay/maple2021/maple2021.install",
+				"/home/mak/Software/Mathematica/modlerCrack/Readme.txt",
+				"/home/mak/.cache/yay/systemmodeler/PKGBUILD",
+				"/home/mak/.cache/yay/systemmodeler/systemmodeler.install",
+				"/home/mak/export.csv",
+				"/home/mak/.dotfiles/.config/i3/bin/%F",
+				"/home/mak/%F",
+				"/home/mak/.zshrc",
+				"/home/mak/.dotfiles/.config/polybar/colors.ini",
+				"/home/mak/Documents/milling",
+				"/home/mak/.dotfiles/.config/i3/polybar/%F",
+				"/home/mak/.dotfiles/.config/i3/polybar/colors",
+				"/home/mak/.config/rofi/launchers/misc/launcher.sh",
+				"/home/mak/.config/rofi/launchers/misc/appfolder.rasi",
+				"/home/mak/.config/rofi/config.rasi",
+				"/home/mak/.config/rofi/launchers/colorful/launcher.sh",
+				"/home/mak/.dotfiles/.config/i3/picom.conf",
+				"/home/mak/Mathworks Matlab R2022b (9.13.0) Linux x64/Crack/Readme.txt",
+				"/home/mak/Mathworks Matlab R2022b (9.13.0) Linux x64/Matlab913_R2022b_Lin64_Downloadly.ir/install",
+				"/home/mak/Text File.txt",
+				"/home/mak/.config/Trolltech.conf",
+				"/home/mak/.dotfiles/.config/i3/polybar/config",
+				"/home/mak/.config/i3/.fehbg",
+				"/home/mak/.config/i3/bin/autostart.sh",
+				"/home/mak/.config/i3/config",
+				"/home/mak/.config/polybar/config.ini",
+				"/home/mak/.dotfiles/.config/i3/polybar/modules",
+				"/home/mak/.nanorc",
+				"/home/mak/.dotfiles/.config/i3/polybar/system",
+				"/home/mak/.dotfiles/.config/i3/polybar/decor",
+				"/home/mak/example_m913.ini",
+				"/etc/X11/xorg.conf.d/20-intel.conf",
+				"/home/mak/Pictures/ReadyPlayerMe-Avatar.png",
+				"/home/mak/Projects/Libraries/STM/MS5611/main.c",
+				"/home/mak/Projects/Libraries/STM/MS5611/MS5611.c",
+				"/home/mak/Projects/3dDesigns/knob_with_screw/%F",
+				"/home/mak/Projects/3dDesigns/knob_with_screw/README.md",
+				"/home/mak/Documents/untitled-6.md",
+				"/home/mak/Documents/untitled-5.md",
+				"/home/mak/Documents/untitled-4.md",
+				"/home/mak/Documents/untitled-3.md",
+				"/home/mak/Documents/untitled-2.md",
+				"/home/mak/Documents/untitled-1.md",
+				"/home/mak/Downloads/QS5aBgRd",
+				"/home/mak/text.txt",
+				"/home/mak/Projects/3dDesigns/gears_fidget/README.md",
+				"/home/mak/Projects/3dDesigns/ender3_camera_mount_holder/README.md",
+				"/run/media/mak/Data/Projects/connect.sh",
+				"/run/media/mak/Data/Projects/tictactoe/ProbA.m",
+				"/run/media/mak/Data/Projects/ECG/ecg/Barname microcontroller.asm",
+				"/home/mak/Projects/Libraries/STM/HMC5883/main.c",
+				"/home/mak/Downloads/Doctor Strange in the Multiverse of Madness[2022] BrRip x264/Readme.txt",
+				"/home/mak/Downloads/Doctor Strange in the Multiverse of Madness BluRay.x265.HD-PINK/Readme.txt",
+				"/home/mak/Projects/Libraries/STM/HMC5883/HMC5883.c",
+				"/home/mak/Projects/Libraries/STM/HMC5883/HMC5883.h",
+				"/home/mak/Projects/Libraries/STM/HMC5883/main.h",
+				"/home/mak/Downloads/Doctor Strange in the Multiverse of Madness.480p x264-mSD/Readme.txt",
+				"/home/mak/doodle/a",
+				"/home/mak/Projects/Libraries/STM/MS5611/main.h",
+				"/run/media/mak/Data/opt/python.py",
+				"/home/mak/Projects/STM/untitled/Core/Src/main.c",
+				"/home/mak/Projects/Libraries/STM/PCA96/PCA96.c",
+				"/home/mak/Projects/Libraries/STM/PCA96/main.c",
+				"/home/mak/.config/qtile/scripts/autostart.sh",
+				"/home/mak/Projects/STM/Libraries/%F",
+				"/home/mak/.ssh/id_rsa.pub",
+				"/home/mak/.config/qtile/config.py",
+				"/home/mak/config.py",
+				"/home/mak/.config/qtile/%F",
+				"/home/mak/Downloads/lcd.SLDPRT",
+				"/home/mak/.config/qtile/qtile-mutable-scratch/%F",
+				"/home/mak/.config/qtile/qtile-mutable-scratch/config.py"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"FlexNet",
+					" initialization error\n",
+					"Maple initialization error\n",
+					"Maple initialization error, No such feature exists.\n",
+					"$mod+h",
+					"space",
+					"[mod],\"s\"",
+					"[mod, \"shift\"], \"e\"",
+					"group_nam",
+					"asdfjkl;"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 260.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 592.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 210.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 136.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/mak/Downloads/mak.ovpn",
+				"/home/mak/Downloads/Python/RP2040-Zero.py",
+				"/home/mak/Downloads/C/RP2040_Zero_Test.c",
+				"/home/mak/.cache/.fr-OWHGY1/Version_EN.txt",
+				"/home/mak/.cache/.fr-Q926X1/Raspberry Pi Pico MicroPython Demo Code/Lesson-4 Blink/Blink.py",
+				"/run/media/mak/RPI-RP2/INFO_UF2.TXT",
+				"/home/mak/github/Libraries/STM/MS5611/main.c",
+				"/home/mak/Projects/ECG/ecg/Daryaft data.py",
+				"/home/mak/Projects/ECG/ecg/Barname microcontroller.asm",
+				"/home/mak/Projects/backHis.py",
+				"/home/mak/Projects/test_image.py",
+				"/home/mak/Projects/test_video.py",
+				"/home/mak/Projects/HadideQalaviz.py",
+				"/home/mak/Projects/spurGears.py",
+				"/home/mak/.win10.draft.txt",
+				"/home/mak/Projects/ECG/ecg/Namayesh nomudar.py",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.c",
+				"/home/mak/github/Libraries/STM/MS5611/MS5611.h",
+				"/home/mak/Documents/MyResume/about.html",
+				"/home/mak/cMain.c",
+				"/home/mak/main.py",
+				"/home/mak/.ubuntu22.04.draft.txt",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/Activation Codes/CLion.txt",
+				"/home/mak/Projects/publish.py",
+				"/home/mak/spurGears.py",
+				"/home/mak/python.py",
+				"/run/media/mak/Data/Documents/unCat/python.py",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/clion.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/clion64.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/221.5787.24/bin/pycharm64.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/221.5787.24/bin/%F",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/221.5787.24.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/PyCharm-P/ch-0/%F",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/pycharm.vmoptions",
+				"/home/mak/.local/share/JetBrains/Toolbox/apps/JetBrains/ja-netfilter-all/vmoptions/%F",
+				"/home/mak/Downloads/JetBrains/Activation Codes/PyCharm.txt",
+				"/home/mak/Downloads/JetBrains ja-netfilter-all Activation Codes Build 220801/Readme.txt",
+				"/home/mak/Downloads/JetBrains/ja-netfilter-all/vmoptions/pycharm.vmoptions",
+				"/home/mak/Downloads/JetBrains ja-netfilter-all Activation Codes Build 220801/ja-netfilter-all/scripts/install.sh",
+				"/home/mak/.dotfiles/.config/i3/%F",
+				"/home/mak/.dotfiles/.config/i3/config",
+				"/home/mak/.dotfiles/.config/i3/bin/autostart.sh",
+				"/home/mak/.cache/yay/maple2022/Maplesoft Maple 2022 Linux64/Crack/license.dat",
+				"/home/mak/.dotfiles/.config/polybar/modules.ini",
+				"/home/mak/.cache/yay/maple2022/Maplesoft Maple 2022 Linux64/Crack/Readme.txt",
+				"/home/mak/.dotfiles/.config/polybar/user_modules.ini",
+				"/home/mak/.dotfiles/.config/polybar/config.ini",
+				"/home/mak/.dotfiles/.config/polybar/%F",
+				"/usr/share/maple2022/license/%F",
+				"/usr/bin/maple",
+				"/home/mak/.cache/yay/maple2022/PKGBUILD",
+				"/home/mak/.cache/yay/maple18/PKGBUILD",
+				"/home/mak/.cache/yay/maple2022/maple2022.desktop",
+				"/home/mak/.cache/yay/maple2021/%F",
+				"/home/mak/.cache/yay/maple2021/PKGBUILD",
+				"/home/mak/.cache/yay/maple2021/maple2021.install",
+				"/home/mak/Software/Mathematica/modlerCrack/Readme.txt",
+				"/home/mak/.cache/yay/systemmodeler/PKGBUILD",
+				"/home/mak/.cache/yay/systemmodeler/systemmodeler.install",
+				"/home/mak/export.csv",
+				"/home/mak/.dotfiles/.config/i3/bin/%F",
+				"/home/mak/%F",
+				"/home/mak/.zshrc",
+				"/home/mak/.dotfiles/.config/polybar/colors.ini",
+				"/home/mak/Documents/milling",
+				"/home/mak/.dotfiles/.config/i3/polybar/%F",
+				"/home/mak/.dotfiles/.config/i3/polybar/colors",
+				"/home/mak/.config/rofi/launchers/misc/launcher.sh",
+				"/home/mak/.config/rofi/launchers/misc/appfolder.rasi",
+				"/home/mak/.config/rofi/config.rasi",
+				"/home/mak/.config/rofi/launchers/colorful/launcher.sh",
+				"/home/mak/.dotfiles/.config/i3/picom.conf",
+				"/home/mak/Mathworks Matlab R2022b (9.13.0) Linux x64/Crack/Readme.txt",
+				"/home/mak/Mathworks Matlab R2022b (9.13.0) Linux x64/Matlab913_R2022b_Lin64_Downloadly.ir/install",
+				"/home/mak/Text File.txt",
+				"/home/mak/.config/Trolltech.conf",
+				"/home/mak/.dotfiles/.config/i3/polybar/config",
+				"/home/mak/.config/i3/.fehbg",
+				"/home/mak/.config/i3/bin/autostart.sh",
+				"/home/mak/.config/i3/config",
+				"/home/mak/.config/polybar/config.ini",
+				"/home/mak/.dotfiles/.config/i3/polybar/modules",
+				"/home/mak/.nanorc",
+				"/home/mak/.dotfiles/.config/i3/polybar/system",
+				"/home/mak/.dotfiles/.config/i3/polybar/decor",
+				"/home/mak/example_m913.ini",
+				"/etc/X11/xorg.conf.d/20-intel.conf",
+				"/home/mak/Pictures/ReadyPlayerMe-Avatar.png",
+				"/home/mak/Projects/Libraries/STM/MS5611/main.c",
+				"/home/mak/Projects/Libraries/STM/MS5611/MS5611.c",
+				"/home/mak/Projects/3dDesigns/knob_with_screw/%F",
+				"/home/mak/Projects/3dDesigns/knob_with_screw/README.md",
+				"/home/mak/Documents/untitled-6.md",
+				"/home/mak/Documents/untitled-5.md",
+				"/home/mak/Documents/untitled-4.md",
+				"/home/mak/Documents/untitled-3.md",
+				"/home/mak/Documents/untitled-2.md",
+				"/home/mak/Documents/untitled-1.md",
+				"/home/mak/Downloads/QS5aBgRd",
+				"/home/mak/text.txt",
+				"/home/mak/Projects/3dDesigns/gears_fidget/README.md",
+				"/home/mak/Projects/3dDesigns/ender3_camera_mount_holder/README.md",
+				"/run/media/mak/Data/Projects/connect.sh",
+				"/run/media/mak/Data/Projects/tictactoe/ProbA.m",
+				"/run/media/mak/Data/Projects/ECG/ecg/Barname microcontroller.asm",
+				"/home/mak/Projects/Libraries/STM/HMC5883/main.c",
+				"/home/mak/Downloads/Doctor Strange in the Multiverse of Madness[2022] BrRip x264/Readme.txt",
+				"/home/mak/Downloads/Doctor Strange in the Multiverse of Madness BluRay.x265.HD-PINK/Readme.txt",
+				"/home/mak/Projects/Libraries/STM/HMC5883/HMC5883.c",
+				"/home/mak/Projects/Libraries/STM/HMC5883/HMC5883.h",
+				"/home/mak/Projects/Libraries/STM/HMC5883/main.h",
+				"/home/mak/Downloads/Doctor Strange in the Multiverse of Madness.480p x264-mSD/Readme.txt",
+				"/home/mak/doodle/a",
+				"/home/mak/Projects/Libraries/STM/MS5611/main.h",
+				"/run/media/mak/Data/opt/python.py",
+				"/home/mak/Projects/STM/untitled/Core/Src/main.c",
+				"/home/mak/Projects/Libraries/STM/PCA96/PCA96.c",
+				"/home/mak/Projects/Libraries/STM/PCA96/main.c",
+				"/home/mak/.config/qtile/scripts/autostart.sh",
+				"/home/mak/Projects/STM/Libraries/%F",
+				"/home/mak/.ssh/id_rsa.pub",
+				"/home/mak/.config/qtile/config.py",
+				"/home/mak/config.py",
+				"/home/mak/.config/qtile/%F",
+				"/home/mak/Downloads/lcd.SLDPRT",
+				"/home/mak/.config/qtile/qtile-mutable-scratch/%F",
+				"/home/mak/.config/qtile/qtile-mutable-scratch/config.py"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"FlexNet",
+					" initialization error\n",
+					"Maple initialization error\n",
+					"Maple initialization error, No such feature exists.\n",
+					"$mod+h",
+					"space",
+					"[mod],\"s\"",
+					"[mod, \"shift\"], \"e\"",
+					"group_nam",
+					"asdfjkl;"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,304,199,1744,948,3286,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 260.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 592.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 210.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

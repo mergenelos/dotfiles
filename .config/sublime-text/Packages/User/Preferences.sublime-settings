@@ -1,8 +1,0 @@
-{
-	"theme": "Default Dark.sublime-theme",
-	"color_scheme": "Solarized (dark).sublime-color-scheme",
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-}

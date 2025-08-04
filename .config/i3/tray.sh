@@ -1,1 +1,0 @@
-pgrep -x trayer >/dev/null && pkill trayer || trayer --edge top --transparent true -l
